@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: "sunday"
+    target-branch: "develop"
+
+  - package-ecosystem: nuget
+    directory: "/"
+    schedule:
+      interval: weekly
+    target-branch: "develop"
+    registries:
+      - github-packages
+
+registries:
+  github-packages:
+    type: nuget-feed
+    url: "https://nuget.pkg.github.com/PulseVenture/index.json"
+    token: "${{ secrets.NUGET_TOKEN }}"
