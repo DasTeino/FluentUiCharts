@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUiCharts.DemoSite", "FluentUiCharts.DemoSite\FluentUiCharts.DemoSite.csproj", "{22EDF873-F634-4F57-9DB2-40DF873DF050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUiCharts", "FluentUiCharts\FluentUiCharts.csproj", "{49CA8885-6A48-41EA-9AAC-754BB8121DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUiCharts.Test", "FluentUiCharts.Test\FluentUiCharts.Test.csproj", "{E9E853C9-C360-4198-821E-F1B2ED113B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EDF873-F634-4F57-9DB2-40DF873DF050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EDF873-F634-4F57-9DB2-40DF873DF050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EDF873-F634-4F57-9DB2-40DF873DF050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EDF873-F634-4F57-9DB2-40DF873DF050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CA8885-6A48-41EA-9AAC-754BB8121DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CA8885-6A48-41EA-9AAC-754BB8121DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CA8885-6A48-41EA-9AAC-754BB8121DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CA8885-6A48-41EA-9AAC-754BB8121DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E853C9-C360-4198-821E-F1B2ED113B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E853C9-C360-4198-821E-F1B2ED113B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E853C9-C360-4198-821E-F1B2ED113B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E853C9-C360-4198-821E-F1B2ED113B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
